@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "br.com.cenoura"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Só cenoura</name>
+
+  <description>
+      Essa app para teste do phonegap
+  </description>
+
+  <author href="https://adyson.com" email="adyson_sm@hotmail.com">
+    Adyson da Silva Moreira
+  </author>
+
+  <preference name="orientation" value="portrait"/>
+  <preference  name="fullscreen" value="true" />
+  <preference name="permissions" value="none"/>
+  <platform name="android" />
+
+  
+    <icon src="icon.png" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <splash src="splash.png" />
+    
+</widget>
